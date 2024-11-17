@@ -1,0 +1,45 @@
+<<<<<<< HEAD
+dfgdf gfdg
+.a sdsad sadsa das
+ dsa
+ dsa
+d 
+asd
+sa 
+das
+d as
+d
+as d
+sa d
+sad
+ sa
+ das
+d 
+sad 
+as
+ d
+=======
+sdasdad
+asdasdas
+asd
+as
+das
+das
+das
+d
+asd
+asd
+asd
+asd
+asd
+as
+a
+sd
+asd
+asd
+asd
+asd
+asd
+as
+d
+>>>>>>> 639f6a5aa2dc9a19c41a9f0ef3a1dc276ad3801a
