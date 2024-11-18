@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project filever="1.0" ProjectVer="1.0">
+	<DataGrpSet>
+		<Group ID="1" Vession="1" Timer="1" FastSample="0" FastTimmer="0" GroupNames="DATA 1Record0Record0Record0Record0Record0Record0Record0" MaxSize="2.67" MaxRecord="39945" Trigger="0" TriggAddr="" ChannelCount="3" UseTimerAddr="0" TimerAddr="" UseSampleValue="0" SampleValue="0" Cloud="0" Start="1" End="1" FileName="DATA 1">
+			<Data ID="1" Name="PV TANK 2Channel1Channel1Channel1Channel1Channel1Channel1Channel1" WordAddr="MW12" DataFormat="104" IsBitCollect="0" ByteLen="1" DigitCount="4.0" Use="0" />
+			<Data ID="2" Name="PV TANK 1Channel2Channel2Channel2Channel2Channel2Channel2Channel2" WordAddr="MW18" DataFormat="104" IsBitCollect="0" ByteLen="1" DigitCount="4.0" Use="0" />
+			<Data ID="3" Name="SETPOINTChannel3Channel3Channel3Channel3Channel3Channel3Channel3" WordAddr="MW0" DataFormat="104" IsBitCollect="0" ByteLen="1" DigitCount="4.0" Use="0" />
+		</Group>
+		<Group ID="2" Vession="1" Timer="1" FastSample="0" FastTimmer="0" GroupNames="DATA 2Record1Record1Record1Record1Record1Record1Record1" MaxSize="2.48" MaxRecord="39945" Trigger="0" TriggAddr="" ChannelCount="2" UseTimerAddr="0" TimerAddr="" UseSampleValue="0" SampleValue="0" Cloud="0" Start="1" End="1" FileName="DATA 2">
+			<Data ID="1" Name="MV 1Channel1Channel1Channel1Channel1Channel1Channel1Channel1" WordAddr="MW14" DataFormat="104" IsBitCollect="0" ByteLen="1" DigitCount="4.0" Use="0" />
+			<Data ID="2" Name="MV 2Channel2Channel2Channel2Channel2Channel2Channel2Channel2" WordAddr="MW16" DataFormat="104" IsBitCollect="0" ByteLen="1" DigitCount="4.0" Use="0" />
+		</Group>
+	</DataGrpSet>
+	<HisXYTrendSet />
+</project>

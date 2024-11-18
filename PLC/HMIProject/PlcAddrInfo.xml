@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project filever="1.0">
+	<WordAddr>
+		<Add Addr="Conn:Stat:Reg:Addr:BInWReg:ByOrder:JZ_W_1:0:MW:0:MB:0:25600" Len="1" Fast="0" />
+		<Add Addr="Conn:Stat:Reg:Addr:BInWReg:ByOrder:JZ_W_1:0:MW:18:MB:0:25600" Len="1" Fast="0" />
+		<Add Addr="Conn:Stat:Reg:Addr:BInWReg:ByOrder:JZ_W_1:0:MW:12:MB:0:25600" Len="1" Fast="0" />
+	</WordAddr>
+</project>
