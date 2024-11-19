@@ -1,0 +1,248 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6" pages="2">
+  <diagram name="Page-1" id="zoAdKi03R0Wv2_IQGmBw">
+    <mxGraphModel dx="1434" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="R_VAT9pj6olcrUuVR5CC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="140" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R_VAT9pj6olcrUuVR5CC-1" target="R_VAT9pj6olcrUuVR5CC-64" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-1" value="START" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="380" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-2" target="R_VAT9pj6olcrUuVR5CC-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-2" value="รับค่าจากเซ็นเซอร์&lt;div&gt;จากถัง 1 และ 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="160" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-4" target="R_VAT9pj6olcrUuVR5CC-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-4" value="แสดงระดับน้ำ" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-4" target="R_VAT9pj6olcrUuVR5CC-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R_VAT9pj6olcrUuVR5CC-16" target="R_VAT9pj6olcrUuVR5CC-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-16" value="PID Process 1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-19" target="R_VAT9pj6olcrUuVR5CC-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-19" target="R_VAT9pj6olcrUuVR5CC-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-19" value="รับค่า เซ็นพอยต์" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-25" target="R_VAT9pj6olcrUuVR5CC-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-25" value="PID Process 2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="260" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R_VAT9pj6olcrUuVR5CC-56" target="R_VAT9pj6olcrUuVR5CC-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-56" value="PID Process 3" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-57" target="R_VAT9pj6olcrUuVR5CC-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-57" value="PID Process 4" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="R_VAT9pj6olcrUuVR5CC-60" target="R_VAT9pj6olcrUuVR5CC-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-60" value="ส่งค่า&lt;div&gt;SP PV1 PV2 MV1 MV2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="460" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="R_VAT9pj6olcrUuVR5CC-63" target="R_VAT9pj6olcrUuVR5CC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="540" />
+              <mxPoint x="640" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-63" value="ส่งค่าไปยัง TCP/IP" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="520" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R_VAT9pj6olcrUuVR5CC-64" value="เชื่อTCP&lt;span style=&quot;background-color: initial;&quot;&gt;/IP&lt;/span&gt;&lt;div&gt;ผ่าน&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;Profibus&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="100" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2byKojZmBFDyjQuGAxbI" name="Page-2">
+    <mxGraphModel dx="1434" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-2" target="BiuKC1P5Nka2oSA2BAuv-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-2" value="PID Process 1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="114" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-4" target="BiuKC1P5Nka2oSA2BAuv-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-4" value="&lt;div&gt;กำหนดค่าเอาท์พุต&lt;/div&gt;&lt;div&gt;MV 1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="114" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-5" value="ส่งค่าเอาท์พุตไปยัง&lt;div&gt;PID Process 2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="114" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-6" value="Return" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="114" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-8" target="BiuKC1P5Nka2oSA2BAuv-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-8" value="รับค่าจากเซ็นเซอร์&lt;div&gt;จากถัง 2 มาเป็น เซ็นพอยต์&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="99" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-10" target="BiuKC1P5Nka2oSA2BAuv-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-10" value="PID Process 2" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="274" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-12" target="BiuKC1P5Nka2oSA2BAuv-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-12" value="ตั้งค่า&lt;div&gt;Duty cycle time&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="274" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-13" value="ตั้งค่าเอาท์พุตไป&lt;div&gt;ควบคุมการทำงานของปั้ม&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="259" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-14" value="Return" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="274" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-16" target="BiuKC1P5Nka2oSA2BAuv-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-16" value="รับค่าจากเซ็นเซอร์&lt;div&gt;จากถัง 1 มาเป็น เซ็นพอยต์&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="259" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-5" target="BiuKC1P5Nka2oSA2BAuv-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-13" target="BiuKC1P5Nka2oSA2BAuv-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-20" target="BiuKC1P5Nka2oSA2BAuv-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-20" value="PID Process 3" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="434" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-22" target="BiuKC1P5Nka2oSA2BAuv-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-22" value="&lt;div&gt;กำหนดค่าเอาท์พุต&lt;/div&gt;&lt;div&gt;MV 3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="434" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-23" value="ตั้งค่าเอาท์พุตไปยัง&lt;div&gt;PID Process 4&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="434" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-24" value="Return" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="434" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="BiuKC1P5Nka2oSA2BAuv-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="494" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-26" target="BiuKC1P5Nka2oSA2BAuv-43" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-26" value="รับค่าจากเซ็นเซอร์&lt;div&gt;จากถัง 4 มาเป็น เซ็นพอยต์&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="419" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-23" target="BiuKC1P5Nka2oSA2BAuv-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-29" target="BiuKC1P5Nka2oSA2BAuv-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-29" value="PID Process 4" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="594" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-31" target="BiuKC1P5Nka2oSA2BAuv-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-31" value="ตั้งค่า&lt;div&gt;Duty cycle time&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="594" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-32" value="ตั้งค่าเอาท์พุตไป&lt;div&gt;ควบคุมการทำงานของปั้ม&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="579" y="280" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-33" value="Return" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="594" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-35" target="BiuKC1P5Nka2oSA2BAuv-31" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-35" value="รับค่าจากเซ็นเซอร์&lt;div&gt;จากถัง 3 มาเป็น เซ็นพอยต์&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="579" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-32" target="BiuKC1P5Nka2oSA2BAuv-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-37" target="BiuKC1P5Nka2oSA2BAuv-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-37" value="คำนวณค่า Error และใช้&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kp Ki Kd&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="99" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-40" target="BiuKC1P5Nka2oSA2BAuv-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-40" value="คำนวณค่า Error และใช้&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kp Ki Kd&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="259" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-43" value="คำนวณค่า Error และใช้&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kp Ki Kd&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="419" y="160" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="BiuKC1P5Nka2oSA2BAuv-46" target="BiuKC1P5Nka2oSA2BAuv-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiuKC1P5Nka2oSA2BAuv-46" value="คำนวณค่า Error และใช้&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Kp Ki Kd&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="579" y="100" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

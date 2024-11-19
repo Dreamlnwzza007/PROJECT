@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # โหลดข้อมูลจากไฟล์ CSV
-data = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv')  # เปลี่ยน path ให้ตรงกับที่เก็บไฟล์ของคุณ
+data = pd.read_csv('C:\\Users\\Dreamlnwzza007\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv')  # เปลี่ยน path ให้ตรงกับที่เก็บไฟล์ของคุณ
 
 # แสดงข้อมูลเบื้องต้น
 print(data.head())

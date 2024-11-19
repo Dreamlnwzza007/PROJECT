@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1. นำเข้าข้อมูลจากไฟล์ CSV
-df = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv')  # เปลี่ยนชื่อไฟล์ตามที่คุณใช้
+df = pd.read_csv('C:\\Users\\Dreamlnwzza007\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv')  # เปลี่ยนชื่อไฟล์ตามที่คุณใช้
 
 # 2. แยกฟีเจอร์และคลาส (คอลัมน์สุดท้ายคือ class)
 X = df.iloc[:, :-1].values  # ฟีเจอร์ (ตัวแปร X) คือทุกคอลัมน์ยกเว้นคอลัมน์สุดท้าย
@@ -40,6 +40,7 @@ model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))  # เล�
 # เพิ่ม Dense layers ที่มี activation='relu' จำนวน 2 เลเยอร์
 model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 1
 model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 2
+model.add(Dense(64, activation='relu'))  # เลเยอร์ hidden 3
 
 # เลเยอร์ Dropout เพื่อลด overfitting
 model.add(Dropout(0.5))
@@ -58,7 +59,7 @@ model.compile(loss='binary_crossentropy',  # ใช้ binary cross-entropy ถ�
 
 # 9. ฝึกโมเดลด้วยข้อมูล training set พร้อมใช้ EarlyStopping
 early_stopping = EarlyStopping(monitor='val_loss', patience=10, restore_best_weights=True)  # หยุดเมื่อ val_loss ไม่ดีขึ้นใน 10 epoch
-history = model.fit(X_train, y_train, epochs=500, batch_size=32, validation_split=0.2, callbacks=[early_stopping])
+history = model.fit(X_train, y_train, epochs=100, batch_size=32, validation_split=0.2, callbacks=[early_stopping])
 
 # 10. ทำนายผลลัพธ์จากข้อมูล test set
 y_pred = model.predict(X_test)

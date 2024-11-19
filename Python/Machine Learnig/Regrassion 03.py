@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # โหลดข้อมูลจากไฟล์ CSV
-file_path = r'C:\\Users\\MSI\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv'
+file_path = r'C:\\Users\\Dreamlnwzza007\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv'
 data = pd.read_csv(file_path)
 
 # ตรวจสอบข้อมูลเบื้องต้น
