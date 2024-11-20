@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1. นำเข้าข้อมูลจากไฟล์ CSV
-df = pd.read_csv('C:\\Users\\Dreamlnwzza007\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv')  # เปลี่ยนชื่อไฟล์ตามที่คุณใช้
+df = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\Machine Learnig\\Normal 02.csv')  # เปลี่ยนชื่อไฟล์ตามที่คุณใช้
 
 # 2. แยกฟีเจอร์และคลาส (คอลัมน์สุดท้ายคือ class)
 X = df.iloc[:, :-1].values  # ฟีเจอร์ (ตัวแปร X) คือทุกคอลัมน์ยกเว้นคอลัมน์สุดท้าย

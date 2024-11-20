@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 # Load dataset
-file_path = 'C:\\Users\\Dreamlnwzza007\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal 02.csv'
+file_path = 'C:\\Users\\MSI\\Desktop\\PROJECT\\Python\Machine Learnig\\Normal 02.csv'
 data = np.loadtxt(file_path, delimiter=",", skiprows=1)
 
 # Feature names
