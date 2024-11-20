@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1. นำเข้าข้อมูลจากไฟล์ CSV
-df = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\Machine Learnig\\Normal 02.csv') 
+df = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\\Machine Learnig\\Normal Last.csv') 
 
 # 2. แยกฟีเจอร์และคลาส (คอลัมน์สุดท้ายคือ class)
 X = df.iloc[:, :-1].values  # ฟีเจอร์ (ตัวแปร X) คือทุกคอลัมน์ยกเว้นคอลัมน์สุดท้าย
@@ -40,7 +40,7 @@ model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))  # เล�
 # เพิ่ม Dense layers ที่มี activation='relu' จำนวน 3 เลเยอร์
 model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 1
 model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 2
-model.add(Dense(64, activation='relu'))  # เลเยอร์ hidden 3
+model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 3
 
 # เลเยอร์ Dropout เพื่อลด overfitting
 model.add(Dropout(0.5))
