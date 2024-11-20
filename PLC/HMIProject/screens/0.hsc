@@ -101,13 +101,13 @@
 	</PartInfo>
 	<PartInfo PartType="HisTrend" PartName="HIS_0" PartClassifyType="TableAndCurve" PartID="0_HIS_0">
 		<General Desc="HIS_0" Area="328 21 792 248" IsVar="0" CharSize="1414141414141414" DataLimit="0204 10 00 0 40" StartTime="0 0 0" XScale="5" YScale="5" UseDynamicCurve="0" BgColor="0xffffff 0" BgType="4" GridColor="0x0 0" BgColor1="0x62c89e 0" BgColor2="0xffffff 0" ScaleValueColor="0x0 0" ScaleColor="0x0 0" TranValue="100" UseSlider="0" TranSlide="100" ShowPt="0" SliderColor="0x0 0" bUseFont="0" UseDataFormat="0" Table_TimeFormat="262144" Table_TimeType="1" LogID="1" IsIdVar="0" OpenModeStartAddr="HDW0" TimeSpan="1/2" ScreenNo="4002" SampleShowCurve="0" Locking="0" />
-		<Channel Status="0" Use="1" SubID="3" LineColor="0xff00 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
-		<Channel Status="1" Use="1" SubID="2" LineColor="0xff 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
-		<Channel Status="2" Use="1" SubID="1" LineColor="0xff0000 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
+		<Channel Status="0" Use="1" SubID="3" LineColor="0xff0000 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
+		<Channel Status="1" Use="1" SubID="2" LineColor="0x4080ff 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
+		<Channel Status="2" Use="1" SubID="1" LineColor="0xff00 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
 	</PartInfo>
 	<PartInfo PartType="HisTrend" PartName="HIS_1" PartClassifyType="TableAndCurve" PartID="0_HIS_1">
 		<General Desc="HIS_0" Area="328 230 792 457" IsVar="0" CharSize="1414141414141414" DataLimit="0204 10 00 0 100" StartTime="0 0 0" XScale="5" YScale="5" UseDynamicCurve="0" BgColor="0xffffff 0" BgType="4" GridColor="0x0 0" BgColor1="0x62c89e 0" BgColor2="0xffffff 0" ScaleValueColor="0x0 0" ScaleColor="0x0 0" TranValue="100" UseSlider="0" TranSlide="100" ShowPt="0" SliderColor="0x0 0" bUseFont="0" UseDataFormat="0" Table_TimeFormat="262144" Table_TimeType="1" LogID="2" IsIdVar="0" OpenModeStartAddr="HDW0" TimeSpan="1/2" ScreenNo="4002" SampleShowCurve="0" Locking="0" />
-		<Channel Status="0" Use="1" SubID="1" LineColor="0xff00 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
-		<Channel Status="1" Use="1" SubID="2" LineColor="0xff 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
+		<Channel Status="0" Use="1" SubID="1" LineColor="0xff 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
+		<Channel Status="1" Use="1" SubID="2" LineColor="0x800080 0" LineWidth="3" LineType="1" SampleEnable="0" SampleLineWidth="0" SampleLineColor="0x0 0" SampleCustomYEnable="0" SampleYOnRight="0" />
 	</PartInfo>
 </ScrInfo>
