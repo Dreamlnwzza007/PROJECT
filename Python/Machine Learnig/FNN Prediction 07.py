@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 1. นำเข้าข้อมูลจากไฟล์ CSV
-df = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\Machine Learnig\\Normal 02.csv')  # เปลี่ยนชื่อไฟล์ตามที่คุณใช้
+df = pd.read_csv('C:\\Users\\MSI\\Desktop\\PROJECT\\Python\Machine Learnig\\Normal 02.csv') 
 
 # 2. แยกฟีเจอร์และคลาส (คอลัมน์สุดท้ายคือ class)
 X = df.iloc[:, :-1].values  # ฟีเจอร์ (ตัวแปร X) คือทุกคอลัมน์ยกเว้นคอลัมน์สุดท้าย
@@ -37,7 +37,7 @@ model = Sequential()
 # เลเยอร์ input layer
 model.add(Dense(128, input_dim=X_train.shape[1], activation='relu'))  # เลเยอร์แรกใช้ ReLU
 
-# เพิ่ม Dense layers ที่มี activation='relu' จำนวน 2 เลเยอร์
+# เพิ่ม Dense layers ที่มี activation='relu' จำนวน 3 เลเยอร์
 model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 1
 model.add(Dense(128, activation='relu'))  # เลเยอร์ hidden 2
 model.add(Dense(64, activation='relu'))  # เลเยอร์ hidden 3
